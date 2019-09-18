@@ -26,19 +26,6 @@ Nello sviluppo in Java l'uso di ArrayList, ove non escluso esplicitamente dalla 
 
 Per "buona qualità" intendiamo codice ben modularizzato, ben commentato e ben testato.
 
-# Consegne per gli esercizi
-
-**Importante**: Tutti gli esercizi richiedono almeno di sviluppare una struttura dati e/o un algoritmo. Nello sviluppare questa parte, si deve assumere di stare sviluppando una libreria generica intesa come fondamento di futuri programmi. Non è pertanto lecito fare assunzioni semplificative legate ai particolari usi che di tale libreria generica gli esercizi potrebbero richiedere di implementare; in generale, l'implementazione della libreria generica non deve essere influenzata in alcun modo dagli usi di essa eventualmente richiesti negli esercizi (ad esempio, se un esercizio dovesse richiedere l'implementazione della struttura dati grafo e quello stesso o un altro esercizio dovesse richiedere l'implementazione, a partire da tale struttura dati, di un algoritmo per il calcolo delle componenti connesse di un grafo, l'implementazione della struttura dati non dovrebbe contenere elementi – variabili, procedure, funzioni, metodi, ecc. – eventualmente utili per il calcolo delle componenti connesse, ma non essenziali alla struttura dati; analogamente, se un esercizio dovesse richiedere di operare su grafi con nodi di tipo stringa, l'implementazione della struttura dati grafo dovrebbe restare generica e non potrebbe quindi assumere per i nodi il solo tipo stringa).
-
-
-**Importante**: In sede di discussione d'esame, sarà facoltà del docente chiedere di eseguire gli algoritmi implementati su dati forniti dal docente stesso. Nel caso questi dati siano memorizzati su file, questi saranno dei csv con la medesima struttura dei dataset forniti e descritti nel testo dell'esercizio. I codici sviluppati dovranno consentire un rapido e semplice adattamento agli input forniti: ad esempio, una buona implementazione consentirà di inserire in input il nome del file su cui eseguire il test, mentre una peggiore richiederà di modificare il codice sorgente e una successiva compilazione a fronte della sola modifica del nome del file contenente il dataset.
-
-
-In alcuni esercizi si ribadisce la necessità di implementare una versione generale della libreria. Ciò non vuol dire che dove questo non sia specificato esplicitamente sia lecita una implementazione meno generale.
-
-Inoltre tutti gli esercizi chiedono di implementare un programma che sfrutta la libreria realizzata. Questa parte degli esercizi (e solo questa) può essere pensata come una istanziazione particolare di un problema e può quindi fare leva sulle caratteristiche particolari del problema (es., può assumere che i dati siano di un particolare tipo).
-
-
 ## Unit Testing
 
 Come indicato esplicitamente nei testi degli esercizi, il progetto di laboratorio comprende anche la definizione di opportune suite di unit tests.
