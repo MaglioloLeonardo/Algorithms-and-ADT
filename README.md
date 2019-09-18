@@ -1,5 +1,4 @@
 # Laboratorio per il corso di Algoritmi e Strutture Dati: indicazioni generali e suggerimenti, consegne per gli esercizi
-d'
 ## Linguaggio in cui sviluppare il laboratorio
 
 Gli esercizi vanno implementati utilizzando il linguaggio C o Java come precisato di seguito:
