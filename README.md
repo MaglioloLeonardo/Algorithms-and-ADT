@@ -223,8 +223,6 @@ Ogni record contiene i seguenti dati:
 - potete interpretare le informazioni presenti nelle righe del file come   archi non diretti (i.e., probabilmente vorrete inserire nel vostro grafo sia l'arco di andata che quello di ritorno a fronte di ogni riga letta).
 - il file è stato creato a partire da un dataset poco accurato. I dati riportati contengono inesattezze e imprecisioni.
 
-**IL FILE italian\_dist\_graph.csv NON DEVE ESSERE OGGETTO DI COMMIT SU GIT!**
-
 **Controlli**
 
 Un'implementazione corretta dell'algoritmo di Kruskal, eseguita sui dati 
